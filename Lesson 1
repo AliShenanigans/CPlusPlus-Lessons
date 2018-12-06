@@ -1,0 +1,38 @@
+// Ali's Lynda.com module
+
+//--------------------------------------------------------------------
+//LESSON 1
+//"variables cannot be equations"
+
+#include <iostream>
+using namespace std;
+// input-output stream
+int main()
+{
+ cout << "pls input name";
+ cout << " ";
+
+ string name;
+ cin >> name;
+  // << is input operator, cout is console in
+  //cout  << "Hello, " << name;
+  // << is output operator, cout is console out
+
+
+
+
+//-------------------------Lesson Challenge -----------------------------------
+//LESSON 2
+  cout << " ";
+  cout << "Hello " << name << ", What is your Fav Food?";
+  cout << " ";
+
+  string food;
+  cin >> food;
+  
+  cout << "oh...    " << food << " is yucky";
+
+
+
+
+}
