@@ -1,0 +1,28 @@
+// Ali's Lynda.com module
+
+//--------------------------------------------------------------------
+//LESSON 2
+
+
+//<datatype> <variable name> = <value> ;
+
+#include <iostream>
+using namespace std;
+// input-output stream
+int myVar = 5.6;
+// note that int rounds down always 
+
+float pi = 3.14;
+
+
+int main()
+{
+cout << myVar <<"  " << pi;
+cout << " ";
+
+cout << " sum= " << myVar*pi;
+}
+
+
+//Converting Data Types:
+// cout << static_cast<int>(insertequationhere...)
