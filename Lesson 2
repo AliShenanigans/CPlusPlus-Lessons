@@ -3,10 +3,16 @@
 //--------------------------------------------------------------------
 //LESSON 2
 
-
+//creating variables etc...
+// int gets 4 bytes
 //<datatype> <variable name> = <value> ;
 
 #include <iostream>
+#include <math.h>
+#include <ctime>
+#include<cstdlib>
+
+
 using namespace std;
 // input-output stream
 int myVar = 5.6;
@@ -14,6 +20,7 @@ int myVar = 5.6;
 
 float pi = 3.14;
 
+string words ="some words";
 
 int main()
 {
@@ -21,8 +28,27 @@ cout << myVar <<"  " << pi;
 cout << " ";
 
 cout << " sum= " << myVar*pi;
-}
+cout << " ";
+cout << static_cast<int>(myVar*pi);
 
 
+myVar = static_cast<int>(myVar*pi);
+cout << " ";
+cout << myVar;
+cout << words;
+//int taxRate  floor(4.999)
 //Converting Data Types:
 // cout << static_cast<int>(insertequationhere...)
+
+// remainder
+int remainder = 6%4;
+cout << "remainder of 6/4 is: "; cout<< remainder; cout<< "  ";
+
+// other math functions:
+int r = 2;
+int r_squared = pow(r,2);
+cout << r_squared;
+
+//rand() is random number generator
+//srand() seeds generator to start at new random value 
+}
