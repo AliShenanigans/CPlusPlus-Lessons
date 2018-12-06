@@ -9,6 +9,7 @@ int main()
 int dice = 0;
 
 //seed random number generatorsrand(time(0));
+srand(time(0));
 
 dice = (rand()%6) +1;
 // random number (6) i.e 0 to 5
