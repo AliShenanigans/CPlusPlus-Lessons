@@ -1,0 +1,19 @@
+#include <iostream>
+#include <ctime>
+#include <cstdlib>
+using namespace std;
+
+
+int main()
+{
+int dice = 0;
+
+//seed random number generatorsrand(time(0));
+
+dice = (rand()%6) +1;
+// random number (6) i.e 0 to 5
+// but dice are 1-6 so +1
+cout << "you rolled a " << dice << endl;;
+
+return 0;
+}
