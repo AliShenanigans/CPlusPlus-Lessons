@@ -1,0 +1,42 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+//---------------------------------------------------------
+// IF
+cout << "enter a number to <10 ";
+int c;
+cin >> c;
+
+int x = c;
+
+if (x<10)
+{
+  cout << " yep 5<10 surprise!";
+}
+else if (x>10)
+{
+cout << "nope, >10 silly...        " ;
+}
+else 
+{
+ cout << "=10!!";
+}
+
+
+//---------------------------------------------------------
+// AND
+cout << "gimmy x y z     ";
+int y;int z;
+cin >> x;cin >> y;cin >> z;
+
+if ((x>10) && (y<20))
+{
+cout << "cool";
+}
+else 
+{
+cout << "not cool";  
+}
+}
