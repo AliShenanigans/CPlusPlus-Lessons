@@ -36,6 +36,23 @@ int multi [3][3];
 //cout << printarray (foo,5);
 
 
+// Assign values to n array using rows/columns notation
+#define width 5
+#define height 3
+
+int jimmy [height][width];
+int n,m;
+
+int main()
+{
+  for (n=0; n<height; n++)
+    for (m=0; m<width; m++)
+    {
+      jimmy[n][m]=(n+1*m+1);
+    }
+}
+
+
 
 
 }
