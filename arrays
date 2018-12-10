@@ -1,0 +1,52 @@
+#include <iostream>
+
+#include <math.h>
+#include <ctime>
+#include<cstdlib>
+using namespace std;
+//------------------------------------------------
+//Arrays
+
+
+//function outside main
+void printarray (int arg[], int length) 
+{
+  for (int n=0; n<length; ++n)
+    cout << arg[n] << ' ';
+  cout << '\n'; 
+}
+
+
+
+int main()
+{
+ int x = 5;
+ int y = 3;
+
+int foo [5] = { 16, 2, 77, 40, 12071 }; 
+int bar [5] = { 10, 20, 30 };
+int baz [5] = { }; 
+int empty [] = {1,2,3,4,5};
+
+cout << //foo;
+
+int multi [3][3];
+
+
+//cout << printarray (foo,5);
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
