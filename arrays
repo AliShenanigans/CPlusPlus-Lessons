@@ -51,6 +51,33 @@ int main()
       jimmy[n][m]=(n+1*m+1);
     }
 }
+#include <iostream>
+
+#include <math.h>
+#include <ctime>
+#include<cstdlib>
+using namespace std;
+
+//using arrays as parameters...
+// i.e feed array into function
+void printarray (int arg[], int length) 
+{
+  for (int n=0; n<length; ++n)
+    cout << arg[n] << "  ";
+    cout << '\n';
+}
+
+int main()
+{
+  int firstarray[] = {5, 10, 15};
+  int secondarray[] ={2,4,6,8,10};
+  printarray (firstarray,3);
+  printarray (secondarray,5);
+}
+
+
+
+
 
 
 
