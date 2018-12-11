@@ -1,0 +1,63 @@
+/* create before you main
+if you want main to be able to use the functions within your declared class, you need to make the functions public:*/
+
+#include <iostream>
+using namespace std;
+
+// function within a class:
+
+
+class AlisClass{
+  public:
+  // void is a function that accpets no inputs
+       void CoolSaying1()
+       {
+         cout << "first saying" << endl;
+       }
+       void CoolSaying2()
+       {
+         cout << "second saying" << endl;
+       }
+
+};
+
+
+class AnotherClass{
+  /* see how this class has the same functions,
+  this is why we need to use object keys */
+  public:
+  // void is a function that accpets no inputs
+       void CoolSaying1()
+       {
+         cout << "first saying second class" << endl;
+       }
+       void CoolSaying2()
+       {
+         cout << "second saying second class" << endl;
+       }
+
+};
+
+int main()
+{
+// classname objectname (classkey)
+  AlisClass AlisKey;
+  AnotherClass AnotherKey;
+
+  AlisKey.CoolSaying2();
+  AnotherKey.CoolSaying2();
+  return 0;
+}
+
+
+
+/* 
+some notes:
+Objects are how you access the stuff that is in your class; tells it what class youre working with
+ <classname> <object name>;
+ so now we use ,object name whenever we want to access stuff within that class 
+ define the key in the main()
+ */
+
+
+
