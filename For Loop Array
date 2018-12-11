@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int bucky[9];
+    int n=0;
+    
+    cout << "Element  -  Value" << endl;
+    for (int x= 0; x<=8; x++){
+        bucky[x] = n;
+        cout << "x=" << x << "   value=" << bucky[x] << endl;
+        n++;
+    }
+}
