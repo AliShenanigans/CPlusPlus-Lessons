@@ -1,0 +1,34 @@
+#include <iostream>
+#include <vector> 
+#include <cstring>
+using namespace std;
+
+std::vector<std::string> allLongestStrings(std::vector<std::string> inputArray) 
+{   int n = inputArray.size();
+    
+    while (int y <1) {
+        //erase index if value is smaller than another in list
+        for (int i=0; i< inputArray.size(); i++){
+          for (int j=0; j< inputArray.size(); j++){
+           
+             //num wrtinputArray length
+              std::vector<int> num; 
+              for (int i=0; i< inputArray.size(); i++){
+                 num.push_back(inputArray[i].length());}
+             
+               if (num[i]<num[j]){
+                   cout << inputArray[i] << " " << inputArray[j] << " remove "<<endl;
+                   inputArray.erase(inputArray.begin() + i);
+                   y=0;
+                   break;
+                y+=1;
+         cout <<inputArray.size() << endl;  }}}}
+
+    return inputArray;
+}
+
+int main()
+{ 
+    std::vector<std::string> inputArray = {{"abc", "eeee", "abcd", "dcd"}};
+    allLongestStrings(inputArray);
+}
